@@ -18,6 +18,8 @@
 #### 同步服务架构
 ![image](parserlog.png)
 
+#### 分析服务后台视图
+![image](logprocess.png)
 
 ## Contributing
 Pull requests are the way to go here.
