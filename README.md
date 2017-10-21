@@ -3,7 +3,7 @@
 
 #### 核心思想
 简化模型，比如只统计offer的点击数
-![image](WechatIMG113.jpg)
+![image](images/WechatIMG113.jpg)
 
 
 #### 服务整体设计
@@ -16,10 +16,10 @@
 
 
 #### 同步服务架构
-![image](parserlog.png)
+![image](images/parserlog.png)
 
 #### 分析服务后台视图
-![image](logprocess.png)
+![image](images/logprocess.png)
 
 ## Contributing
 Pull requests are the way to go here.
