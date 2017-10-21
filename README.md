@@ -1,12 +1,12 @@
 # parselog
-
+在并发量很大情况下，要实现可用的报表功能，为保证性能，采用日志文件存储分析的方式来实现，这是一个该功能的简单实现。
 
 ![image](https://github.com/fanrong33/parserlog/blob/master/parserlog.png)
 
 #### 服务整体设计
 
 
-  1. [client] 写日志到log文件
+  1. [client] 写基础信息日志到log文件
   2. [client] 同步日志文件到主服务器
   3. [client] -- 定期自动清理log文件
   4. [master] 分析日志进行统计汇总，写入报表等
