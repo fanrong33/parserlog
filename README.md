@@ -1,5 +1,7 @@
 # parselog
-在并发量很大情况下，要实现可用的报表功能，为保证性能，采用日志文件存储分析的方式来实现，这是一个该功能的简单实现。
+在并发量很大情况下，要实现可用的报表功能，为保证性能，采用日志文件存储分析的方式来实现，而不是使用数据库来存储元数据。这是一个该需求的简单实现。
+举个例子，这里先简化模型，比如只统计offer的点击数
+![image](WechatIMG113.jpg)
 
 ![image](https://github.com/fanrong33/parserlog/blob/master/parserlog.png)
 
